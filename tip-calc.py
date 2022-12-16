@@ -1,0 +1,6 @@
+a = input("Enter the bill ")
+b = input("Enter the number of people")
+bill = float(a)
+p = int(b)
+ep = (bill / p) + (bill / p) * (0.12)
+print(round(ep, 2))
